@@ -1,7 +1,5 @@
 # Vehicle Fuel Efficiency Prediction
 
-Machine Learning Algorithms, final course project.
-
 Predicting the combined fuel consumption (L/100 km) of new cars from their specifications, using the official Natural Resources Canada fuel consumption ratings for model years 2014-2025.
 
 ## Project question
@@ -105,18 +103,6 @@ All imports are in the first code cell. Every random step uses one `SEED = 42` (
 - The test set is one group split with only 48 hybrids and very few vans; the target is the laboratory rating, not real-world consumption.
 - The model is an estimate for buyers, dealers and analysts and must not replace the official NRCan label in purchase, tax or regulatory decisions.
 
-## Contribution record
-
-| Work | Author | Git user |
-|---|---|---|
-| Notebook sections 1 problem statement, 4 EDA, 5.1 and 5.4 features, 6.1-6.3 split | Bigali | `Bigali` |
-| Notebook sections 10 PCA, 13 error analysis, 15 conclusions; written report | Bigali | `Bigali` |
-| Notebook sections 2 data loading, 3 cleaning, 7 baseline and first models | Iskander | `isk0nka-dot` |
-| Notebook sections 5.2 `is_hybrid`, 5.3 preprocessing, 6.4-6.6 split design and leakage audit, 9 K-Means, 14 reproducibility check | Iskander | `isk0nka-dot` |
-| Notebook sections 8 tuning, test evaluation and time-based check, 11 neural network, 12 final comparison | Asset | `aaset` |
-
-The full history is in the git log of the repository.
-
 ## Repository
 
-https://github.com/bgl96395/Vehicle-Fuel-Efficiency_Prediction
+https://github.com/bgl96395/Vechicle-Fuel-Efficiency_Prediction
